@@ -1,0 +1,55 @@
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# Avalonia generated files
+*.g.cs
+*.g.i.cs
+*.axaml.g.cs
+*.axaml.g.i.cs
+*.xaml.g.cs
+*.xaml.g.i.cs
+.avalonia/
+
+# Rider / IntelliJ IDEA
+.idea/
+*.sln.iml
+out/
+
+# Rider plugin caches
+.rider/
+
+# User-specific
+*.user
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Node modules (if Avalonia project uses npm tooling)
+node_modules/
+
+# Code coverage
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.html
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
