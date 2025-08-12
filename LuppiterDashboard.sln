@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuppiterDashboard", "LuppiterDashboard\LuppiterDashboard.csproj", "{C082438C-684D-4832-92F7-48E88551552C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuppiterDashboard.Services", "LuppiterDashboard.Services\LuppiterDashboard.Services.csproj", "{E996169E-EF40-4F3D-A3DF-9022D728B16E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C082438C-684D-4832-92F7-48E88551552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C082438C-684D-4832-92F7-48E88551552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C082438C-684D-4832-92F7-48E88551552C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E996169E-EF40-4F3D-A3DF-9022D728B16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E996169E-EF40-4F3D-A3DF-9022D728B16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E996169E-EF40-4F3D-A3DF-9022D728B16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E996169E-EF40-4F3D-A3DF-9022D728B16E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
