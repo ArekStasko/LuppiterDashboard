@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LuppiterDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f85dfe9451b10049846181551d339193e0a4f24a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2444ab12dcf0bb7edcf8620366a5d2f52be712")]
 [assembly: System.Reflection.AssemblyProductAttribute("LuppiterDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LuppiterDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

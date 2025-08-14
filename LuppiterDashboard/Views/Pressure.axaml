@@ -8,9 +8,4 @@
         Width="800" Height="450"
         xmlns:local="clr-namespace:LuppiterDashboard"
         x:DataType="local:Temperature">
-
-    <StackPanel Margin="10">
-        <TextBlock Text="Odebrane dane z ESP32:" FontSize="16" Margin="0,0,0,10"/>
-        <ListBox ItemsSource="{Binding Data}" Height="350"/>
-    </StackPanel>
 </Window>

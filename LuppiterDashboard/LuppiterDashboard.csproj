@@ -23,4 +23,19 @@
     <ItemGroup>
       <ProjectReference Include="..\LuppiterDashboard.Services\LuppiterDashboard.Services.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\Temperature.axaml.cs">
+        <DependentUpon>MainWindow.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Pressure.axaml.cs">
+        <DependentUpon>Pressure.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Altitude.axaml.cs">
+        <DependentUpon>Altitude.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>

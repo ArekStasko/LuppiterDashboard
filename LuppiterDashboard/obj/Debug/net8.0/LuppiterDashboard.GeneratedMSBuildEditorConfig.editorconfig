@@ -24,3 +24,12 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/arekstasko/sources/repos/LuppiterDashboard/LuppiterDashboard/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/arekstasko/sources/repos/LuppiterDashboard/LuppiterDashboard/Views/Altitude.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/arekstasko/sources/repos/LuppiterDashboard/LuppiterDashboard/Views/Pressure.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/arekstasko/sources/repos/LuppiterDashboard/LuppiterDashboard/Views/Temperature.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

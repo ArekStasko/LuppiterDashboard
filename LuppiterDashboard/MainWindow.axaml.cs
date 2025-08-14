@@ -5,11 +5,11 @@ using LuppiterDashboard.Services.Services;
 
 namespace LuppiterDashboard;
 
-public partial class MainWindow : Window
+public partial class Temperature : Window
 {
     private readonly CommunicationService _communicationService;
     public ObservableCollection<string> Data { get; } = new();
-    public MainWindow()
+    public Temperature()
     {
         InitializeComponent();
         DataContext = this;
