@@ -1,11 +1,13 @@
-using System.Collections.ObjectModel;
+using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Threading;
-using LuppiterDashboard.Services.Services;
+using Avalonia.Markup.Xaml;
 
 namespace LuppiterDashboard;
 
-public partial class Temperature : Window
+public partial class Altitude : UserControl
 {
-   
+    public Altitude()
+    {
+        InitializeComponent();
+    }
 }
