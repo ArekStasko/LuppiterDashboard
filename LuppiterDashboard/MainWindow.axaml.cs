@@ -1,15 +1,15 @@
 using System.Collections.ObjectModel;
+using System.Runtime.InteropServices.JavaScript;
 using Avalonia.Controls;
 using Avalonia.Threading;
 using LuppiterDashboard.Services.Services;
 
 namespace LuppiterDashboard;
 
-public partial class Temperature : Window
+public partial class MainWindow : Window
 {
     private readonly CommunicationService _communicationService;
-    public ObservableCollection<string> Data { get; } = new();
-    public Temperature()
+    public MainWindow()
     {
         InitializeComponent();
         DataContext = this;
@@ -20,10 +20,16 @@ public partial class Temperature : Window
             Dispatcher.UIThread.Post(() =>
             {
                 if (data.Contains("DATA"))
-                    Data.Add(data);
+                {
+                    var elements = data.Split('|');
+                    TemperatureControl.AddData(float.Parse(elements[1].Trim()));
+                    AltitudeControl.AddData(float.Parse(elements[2].Trim()));
+                    PressureControl.AddData(float.Parse(elements[3].Trim()));
+                }
             });
         };
         
         _communicationService.Start();
+
     }
 }

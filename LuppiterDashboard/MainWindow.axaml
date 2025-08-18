@@ -3,14 +3,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        x:Class="LuppiterDashboard.Temperature"
+        x:Class="LuppiterDashboard.MainWindow"
         Title="LuppiterDashboard"
         Width="800" Height="450"
         xmlns:local="clr-namespace:LuppiterDashboard"
-        x:DataType="local:Temperature">
+        x:DataType="local:MainWindow">
 
     <StackPanel Margin="10">
         <TextBlock Text="Odebrane dane z ESP32:" FontSize="16" Margin="0,0,0,10"/>
-        <ListBox ItemsSource="{Binding Data}" Height="350"/>
+        <local:Temperature x:Name="TemperatureControl"/>
+        <local:Altitude x:Name="AltitudeControl"/>
+        <local:Pressure x:Name="PressureControl"/>
     </StackPanel>
 </Window>
